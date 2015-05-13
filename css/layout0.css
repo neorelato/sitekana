@@ -1,0 +1,51 @@
+.bloco1, .bloco2{padding: 5px;}
+.bloco1 {background-color: #f4f4f6;}
+.bloco2 {background-color: #;}
+.bloco3 {background-color: #87CEFA;}
+.bloco4 {background-color: #FFA07A;}
+.bloco5 {background-color: #FFA500;}
+.bloco6 {background-color: #BC8F8F;}
+
+
+ .quadradoextranet{
+   width:150px;
+   height:100px;
+   background:#fff;
+    /* Rotação */  
+    transform: rotate(-0deg);  
+}
+
+.quadradocalendario{
+   width:150px;
+   height:100px;
+   background:#fff;
+   margin-top: 40px;
+    /* Rotação */  
+    transform: rotate(-0deg);  
+}
+
+.quadrado{
+   width:150px;
+   height:100px;
+   background:#fff;
+   margin-top: 40px;
+    /* Rotação */  
+    transform: rotate(-0deg);  
+}
+
+
+.bandeira {
+	margin-top: 14px;
+	/*height: 50px;
+	width: 170px;*/
+	border: 1px solid black;
+	background: orange;
+	}
+
+.campopesquisa {
+	margin-top: 14px;
+	/*height: 50px;
+	width: 170px;*/
+	border: 1px solid black;
+	background: orange;
+	}
