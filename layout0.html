@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Bootstrap 101 Template</title>
+    <title>..:Kanaflex S/A:..</title>
     <!-- Bootstrap -->
     <meta charset="UTF-8/">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -9,82 +9,86 @@
     <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
     <!--<link href="css/layout0.css" rel="stylesheet" media="screen">-->
     <link rel="stylesheet" type="text/css" href="css/style1.css" />
+    <link href="css/demo.css" type="text/css" rel="stylesheet">
 	<script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
 
   </head>
 <body>
 
 <ul class="cb-slideshow">
-	<li><span>Image 01</span><div></div></li>
-	<li><span>Image 02</span><div></div></li>
-	<li><span>Image 03</span><div></div></li>
-	<li><span>Image 04</span><div></div></li>
-	<li><span>Image 05</span><div></div></li>
-	<li><span>Image 06</span><div></div></li>
+	<li><span>Image 01</span></li>
+	<li><span>Image 02</span></li>
+	<li><span>Image 03</span></li>
+	<li><span>Image 04</span></li>
+	<li><span>Image 05</span></li>
+	<li><span>Image 06</span></li>
 </ul>
 
 <!-- esta div refere-se ao layout principal do site DIV CONTAINER, com uma cor de fundo principal CINZA-->
-<div class="container" style="background-color:#f4f4f6"><!--#a cor de fundo da página está dentro do stylo bootstrap.css CLASS CONTAINER f4f4f6-->
-	<div class="row ">
-
-		<div class="span3 bloco1">
-			<img src="img/logokananovo.jpg" class="img-logo" >
-			<p>
-			   <h2> 11 3779-1670</h2>
-			</p>
-		</div>
-
+<div class="container" style="background-color:#"><!--#a cor de fundo da página está dentro do stylo bootstrap.css CLASS CONTAINER f4f4f6-->
+	<div class="row" ><!`Inicio da primeira class row->
 <!-- Coluna dos itens de carousel ANIMAÇAO SLIDERS TOPO para ele foi determinado span6 do bootstrap-->
-		<div class="span6 bloco2 ">
+		<div class="span9 bloco2 ">
+			<div class="span3 bloco1">
+			<img src="img/logokananovo.jpg" class="img-logo" >
+			<br><br><br>
+			<p>
+			 <center>  <h2> 11 3779-1670</h2></center>
+			</p>
+			</div>
 
-			<div id="myCarousel" class="carousel slide  ">
+			<div id="myCarousel" class="carousel slide span5 ">
 
-				<div class="carousel-inner">
-					<center><div class="active item" ><img src="img/Alimenticia.jpg"></div>
-					<div class="item" ><img src="img/ConstrucaoCivil.jpg"></div>
-					<div class="item" ><img src="img/Drenagem.jpg"></div>
+				<div class="carousel-inner span5">
+					<center><div class="active item span5" ><img src="img/Alimenticia.jpg"></div>
+					<div class="item span5" ><img src="img/ConstrucaoCivil.jpg"></div>
+					<div class="item span5" ><img src="img/Drenagem.jpg"></div>
 					</center>
 				</div>
 					<!-- Navegador do carousel -->
-					<a class="carousel-control left" href="#myCarousel" data-slide="prev" >&lsaquo;</a>
+					<a class="carousel-control left " href="#myCarousel" data-slide="prev" >&lsaquo;</a>
 					<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-			</div>
+			<br><br>
 			Seja bem-vindo à Kanaflex. Atuamos nos setores: elétrico, telecomunicação, saneamento, drenagem, petroquímico, industrial, agrícola, construção civil, alimentício,... Conheça nossos produtos!
+			</div>
 		</div>
 <!-- Fim da coluna ROW dos itens de carousel ANIMAÇAO SLIDERS TOPO -->
-
-
+	
+		
 <!--Nesta div determinamos a barra lateral direita, onde ficará o calendário e outros itens..-->
+		<div class="row span3" style="height: 288px;"><!--este span 3 faz com que apareça o fundo da lateral-->
+				<div class="span2 bloco3" >
 
-		<div class="span2 bloco3">
-			<div>
-			<img src="img/logokananovo.jpg" class="img-logo" >
-			</div>
-		</div>
-		<div class="span2 bandeira">
-			<center>
-			<img src="img/bandeira_brasil.jpg"  style="width: 40px;">
-			<img src="img/bandeira_espanha.jpg"  style="width: 40px;">
-			<img src="img/bandeira_reino_unido.jpg"  style="width: 40px;">
-			</center>
-		</div>
+					<div>
+					<img src="img/logokananovo.jpg" class="img-logo" >
+					</div>
+				</div>
+				<div class="span2 bandeira">
+					<center>
+					<img src="img/bandeira_brasil.jpg"  style="width: 40px;">
+					<img src="img/bandeira_espanha.jpg"  style="width: 40px;">
+					<img src="img/bandeira_reino_unido.jpg"  style="width: 40px;">
+					</center>
+				</div>
+				<div class="row span1">
+				<ul class="thumbnailscalendario">
+				  <li class="span2">
+					<a href="#" class="thumbnail inner-border quadradocalendario">
+						<center>
+						<h6>Calendário</h6>
+						</center>
 
-		<ul class="thumbnailscalendario">
-		  <li class="span2">
-			<a href="#" class="thumbnail inner-border quadradocalendario">
-				<center>
-				<h6>Calendário</h6>
-				</center>
-
-			</a>
-		  </li>
-		 </ul>
+					</a>
+				  </li>
+				 </ul>
+				 </div>
+		 </div>
 
 	</div><!--fim primeira clas row-->
 <!--fim barra lateral direita, span2 é o que forma a barra lateral, IMPORTANTE PARA A CRIAÇAO FOI FEITO 3 COLUNAS DO BOOTSTRAP -->
 
 <!--inicio COLUNA do menu, IMPORTANTE PARA A CRIAÇAO FOI FEITO 2 COLUNAS DO BOOTSTRAP uma para o menu outra para barra lateral -->
-	<div class="row ">
+	<div class="row">
 		<div class="span9 bloco6">
 			<div class="navbar ">
 				<div class="navbar-inner ">
@@ -93,21 +97,21 @@
 					  <span class="icon-bar"></span>
 					  <span class="icon-bar"></span>
 					</a>
-					<div class="nav-collapse collapse">
-						<ul class="nav">
+					<div class="nav-collapse collapse ">
+						<ul class="nav nav-justified">
 						<a class="brand" href="#">Institucional</a>
 							<li class="divider-vertical"></li>
 						</ul>
 						<a class="brand" href="#">Produtos</a>
-						<ul class="nav">
+						<ul class="nav ">
 							<li class="divider-vertical"></li>
 						</ul>
 						<a class="brand" href="#">Onde Comprar</a>
-						<ul class="nav">
+						<ul class="nav ">
 							<li class="divider-vertical"></li>
 						</ul>
 						<a class="brand" href="#">Qualidade</a>
-						<ul class="nav">
+						<ul class="nav ">
 							<li class="divider-vertical"></li>
 						</ul>
 						<a class="brand" href="#">Notícias</a>
@@ -116,22 +120,20 @@
 			</div>
 		</div>
 
-
-		<form class="form-search">
-		  <center>
-		 	<input class="input-medium" type="text" placeholder="O que procura?" style="width: 160px; margin-left: 21px;">
-		  	<button type="submit" class="btn">Pesquisar</button>
-		  </center>
-		</form>
-
-
-
-	</div><!--Fim da row -->
+		<div class="row span3">
+			<form class="form-search">
+			  <center>
+			 	<input class="input-medium" type="text" placeholder="O que procura?" style="width: 160px; margin-left: 21px;">
+			  	<button type="submit" class="btn">Pesquisar</button>
+			  </center>
+			</form>
+		</div>
+	</div><!--Fim da row do menu-->
 <!--FIM DA  COLUNA do menu, IMPORTANTE PARA A CRIAÇAO FOI FEITO 2 COLUNAS DO BOOTSTRAP uma para o menu outra para barra lateral -->
 
 
 <!--iNICIO DA  COLUNA do CORPO DO DOCUMENTO, IMPORTANTE PARA A CRIAÇAO FOI FEITO 2 COLUNAS DO BOOTSTRAP uma para o CORPO E outra para barra lateral -->
-	<div class="row pagination-centered">
+	<div class="row pagination-centered ">
 		<div class="span9 bloco1">
 		<ul class="thumbnails">
 		  <li class="span2">
@@ -164,30 +166,25 @@
 		</ul>
 
 		</div>
-		<ul class="thumbnailsextranet">
-		  <li class="span2">
-			<a href="#" class="thumbnail inner-border quadradocalendario">
-				<center>
-				<h6>Extranet</h6>
-				</center>
-				<div class="controls controls-row">
-				  <input class="span2" type="text" placeholder=".span2">
-				  <input class="span2" type="text" placeholder=".span2kana">
-				</div>
-			</a>
-		  </li>
-		 </ul>
+		<div class="row span3" style="height: 276px;">
+			<ul class="thumbnailsextranet">
+			  <li class="span2">
+				<a href="#" class="thumbnail inner-border quadradoextranet">
+					<div class="controls ">
+					   <input class="span2" type="text" placeholder="Usuário">
+					   <input class="span2" type="text" placeholder="Senha">
+					   <p>
+					     <input class="btn" type="button" value="Editor">&nbsp;&nbsp;<input class="btn" type="button" value="Limpar">
 
-		<ul class="thumbnailsnews">
-				  <li class="span2">
-					<a href="#" class="thumbnail inner-border quadradonews">
-						<center>
-						<h6>news latter</h6>
-						</center>
+					     <input class="btn" type="button" value="Acesso à Extranet">
 
-					</a>
-				  </li>
-		 </ul>
+					   </p>
+					</div>
+				</a>
+			  </li>
+			 </ul>
+			
+		 </div>
 	</div><!--Fim da row -->
 <!--FIM DA  COLUNA DO CORPO DO DOCUMENTO, IMPORTANTE PARA A CRIAÇAO FOI FEITO 2 COLUNAS DO BOOTSTRAP uma para o CORPO E outra para barra lateral -->
 
@@ -221,7 +218,19 @@
 				</div>
 			</footer>
 		</div>
-	</div><!--Fim da row -->
+		<div class="row span3">
+			<ul class="thumbnailsnews">
+			  <li class="span2">
+				<a href="#" class="thumbnail inner-border quadradonews">
+					<center>
+					<h6>news latter</h6>
+					</center>
+				</a>
+			  </li>
+			</ul>
+		</div>
+	</div><!--Fim da row rodapé -->
+
 </div><!--Fim do container -->
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
